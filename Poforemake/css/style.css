@@ -1,0 +1,246 @@
+body{
+    margin: 0px;
+    color: #ffffff;
+    background-color: #000000;
+    box-sizing: border-box;
+    height: 100%;
+}
+.nav{
+    margin: 0px;
+    padding-left: calc(50% - 65px);
+    padding-right: 100px;
+    text-align: left;
+    display: flex;
+    /*flex-direction: row;
+    justify-content: space-between;*/
+    background-color: #010218;
+}
+.nav img{
+    height: 69px;
+    left: -100px;
+    width: 105%;
+    position: absolute;
+}
+.on-it{
+    margin: auto;
+    text-align: center;
+    border-bottom:#42f5ef 2px solid;
+    position:relative;
+}
+.not-it{
+    margin: auto;
+    position: relative;
+}
+.not-here{
+    margin: auto;
+    position: relative;
+    color: black;
+}
+.header{
+    position: absolute;
+    left: 100px;
+}
+
+h1,h2,h3{
+    font-family: Georgia;
+    font-weight: normal;
+}
+p{
+    font-family: Arial;
+}
+
+a {
+    color: inherit;
+    font-style: inherit;
+    text-decoration: inherit;
+}
+.content{
+    padding: 0px;
+    text-shadow: 0px 0px 3px #B8E3DF;
+    margin: auto;
+    margin-top: 100px;
+    position:relative;
+    width: 700px;
+    height: 400px;
+    display: grid;
+    grid-template-areas: 'pfp pfp pfp intr intr intr intr'
+                        'pfp pfp pfp proj proj ovm ovm';
+}
+
+.pfp{
+    grid-area: pfp;
+}
+
+.pfp img{
+    max-width: 300px;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.intr{
+    width: 400px;
+    height: 200px;
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    grid-area: intr;
+}
+.proj{
+    grid-area: proj;
+}
+.proj img{
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+.ovm{
+    grid-area: ovm;
+}
+.ovm img{
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    background-color: #061923;
+    height: 100%;
+}
+/*#42f5ef
+#B8E3DF*/
+
+.footer{
+    background-color: #010218;
+    /*height: calc(40vh);
+    margin-top: 44px;*/
+    overflow: auto;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.footer .front1 img{
+    height: 25px;
+    width: 25px;
+    margin-left: 20px;
+    margin-top: -75px;
+    filter: invert(1);
+}
+.footer .front2 img{
+    height: 25px;
+    width: 25px;
+    margin-left: 20px;
+    margin-top: -25px;
+    filter: invert(1);
+}
+.footer img{
+    height: 200px;
+    margin-top: -100px;
+    width: 100%;
+    position: absolute;
+}
+.inside{
+    height: 700px;
+    position:relative;
+}
+
+.grid{
+    display: grid;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+.gridt{
+    width: auto;
+    height: auto;
+    border: #42f5ef 2px solid;
+}
+.phonenum{
+    margin-left: 50px;
+    margin-top: -70px;
+    position: absolute;
+}
+.email{
+    margin-left: 50px;
+    margin-top: -20px;
+    position: absolute;
+}
+.gradientright{
+    margin-right: 0px;
+    margin-left: 50%;
+    top: -100px;
+    width: 50%;
+    height: 800px;
+    position: absolute;
+}
+.gradientleft{
+    margin-right: 50%;
+    margin-left: 0px;
+    top: -100px;
+    width: 50%;
+    height: 800px;
+    position: absolute;
+}
+
+
+
+.overmijblok{
+    display:flex;
+    justify-content: center;
+}
+.overmijblokling{
+    background-color: #010218;
+    width: 350px;
+    height: 350px;
+    margin: 0px 10px 0px 10px; 
+}
+.overmijblokling img{
+    width: 75px;
+    height: 75px;
+    margin-left: calc(50% - (0.5 * 75px));
+    margin-top: 10px;
+}
+.overmijblokling p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.content2{
+    margin: auto;
+    margin-top: 100px;
+    position:relative;
+    text-shadow: 0px 0px 3px #B8E3DF;
+}
+
+
+
+.content3{
+    margin: auto;
+    margin-top: 100px;
+    position:relative;
+    text-shadow: 0px 0px 3px #B8E3DF;
+}
+.projectenblok{
+    display:flex;
+    justify-content: center;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.projectenblokling{
+    background-color: #010218;
+    height: 250px;
+    width: 200px;
+    margin: 0px 25px 0px 25px;
+}
+.projectenblokling img{
+    height: 100px;
+    width: 150px;
+    margin: 25px 25px 0px 25px;
+}
+.projectenblokling p{
+    margin: 5px 25px 0px 25px;
+}
