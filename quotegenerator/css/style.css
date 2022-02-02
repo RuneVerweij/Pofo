@@ -1,0 +1,29 @@
+button{
+    cursor:pointer;
+    background-color: #444444;
+    color: rgb(235, 235, 235);
+    margin: auto;
+    width: fit-content;
+    display: block;
+}
+
+#wrapper{
+    background-color: #252525;
+    width: 100%;
+    height: calc(100% - 100px);
+    display: inline-block;
+    padding-top: 100px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    margin: 0px;
+}
+html{
+    width:100%;
+    height: 100%;
+    color: rgb(235, 235, 235);
+}
+.quoteShow{margin: auto; width:fit-content;}
+.byShow{margin: auto; width:fit-content;}
