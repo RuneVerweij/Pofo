@@ -5,6 +5,7 @@
     box-sizing: border-box;
     border: 2px solid black;
 }
+/*Elke img behalve de eerste moet onzichtbaar zijn totdat het zichtbaar moet worden in javascript*/
 #img1{
     display: block;
 }
@@ -20,6 +21,7 @@
 #img5{
     display: none;
 }
+/*Alles in het midden zetten*/
 .images{
     width: 600px;
     height: 300px;
@@ -36,6 +38,7 @@
     background-color: #444444;
     color: rgb(235, 235, 235);
 }
+/*Een achtergrondkleur geven*/
 #wrapper{
     background-color: #252525;
     width: 100%;
