@@ -1,6 +1,7 @@
+//linken aan html classes
 let quoteShow = document.querySelector(".quoteShow");
 let byShow = document.querySelector(".byShow");
-
+//quotes in de lijst zetten
 const quotes = [
 
 {
@@ -20,25 +21,23 @@ const quotes = [
     by: "- John Johnson"
 }
 ];
+//random quote kiezen
 let quotePicker = Math.floor(Math.random() * quotes.length);
 let quoteChooser = quotes[quotePicker];
-
+//quotes in html zetten
 quoteShow.innerHTML = quoteChooser.quote;
 byShow.innerHTML = quoteChooser.by;
-
+//zorgen dat de quote die aan staat niet gekozen wordt
 let quoteNotAgain = quoteChooser.quote;
 
 const quoteBtn = document.querySelector(".quoteButton");
 quoteBtn.addEventListener('click', function(){
-
-    quotePicker = Math.floor(Math.random() * quotes.length);
-    quoteChooser = quotes[quotePicker];
-
+    //opnieuw een random quote kiezen
     for(; quoteNotAgain == quoteChooser.quote;){
-    quotePicker = Math.floor(Math.random() * quotes.length);
-    quoteChooser = quotes[quotePicker];
+        quotePicker = Math.floor(Math.random() * quotes.length);
+        quoteChooser = quotes[quotePicker];
     }
-
+    //quote in html afbeelden
     quoteShow.innerHTML = quoteChooser.quote;
     byShow.innerHTML = quoteChooser.by;
     quoteNotAgain = quoteChooser.quote;
